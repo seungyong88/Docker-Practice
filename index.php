@@ -14,6 +14,7 @@
     $sql = "SELECT VERSION()";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_array($result);
+    echo "";
     print_r($row["VERSION()"]);
 
     // mysqli_connect([아이피], [아이디], [비밀번호], [DB명], [포트]);
